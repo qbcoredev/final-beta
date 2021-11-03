@@ -1,0 +1,198 @@
+body {
+    background-color: transparent !important;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.template, .notification {
+    display: none;
+}
+
+
+.notif-container {
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    right: 1.5vh;
+    top: 23.5vh;;
+    width: 15vw;
+}
+
+.notification {
+    padding: 1vh;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.4vh;
+    margin-bottom: 1vh;
+    font-weight: bold;
+    animation: backInRight;
+    animation-duration: 2s;
+}
+
+.notification span {
+    margin: 0;
+    padding: 0;
+}
+
+.notification-text {
+    line-height: 2;
+}
+
+.notification-icon {
+    font-size: 2.5vh;
+    margin-right: 1.5vh;
+    float: left;
+}
+
+.bignotif-container {
+    background-color:#F5F5F5;
+    display: inline;
+    height: auto;
+    width: 100%;
+}
+
+.bignotif-icon {
+    padding: 1.5vh;
+    float: left;
+    height: auto;
+    margin-right: 1.5vh;
+}
+
+.bignotif-icon i {
+    font-size: 2.5vh;
+}
+
+.bignotif-message {
+    height: auto;
+    padding-right: 1.5vh;
+}
+
+.bignotif-title {
+    font-size: 1.5vh !important;
+}
+
+.bignotif-text {
+    font-weight: normal;
+    font-size: 1.5vh !important;
+}
+
+.success {
+    background: #27ae60;
+    border-left: 5px solid #176236;
+    color: #fff;
+}
+
+.primary {
+    background-color: #2980b9;
+    border-left: 5px solid #194a6b;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #df9d51;
+    border-left: 5px solid #ac783d;
+    color: #ffffff;
+}
+
+.error {
+    background: #c0392b;
+    border-left: 5px solid #72140a;
+    color: #fff;
+}
+
+.cardealer {
+    background-color: #F5F5F5;
+    border-left: 5px solid grey;
+    color: black;
+}
+
+.depot {
+    background-color: #FFB300;
+    border-left: 5px solid #ff9646;
+    color: white;
+}
+
+.garage {
+    background-color: #0277BD;
+    border-left: 5px solid #01579B;
+    color: white;
+}
+
+.admin {
+    background: #c0392b;
+    border-left: 5px solid #72140a;
+    color: #fff;
+}
+
+.emergency {
+    background: #4CAF50;
+    border-left: 5px solid #1B5E20;
+    color: #fff;
+}
+
+.phone {
+    background: #009688;
+    border-left: 5px solid #004D40;
+    color: #fff;
+}
+
+.fuel {
+    background: #F57C00;
+    border-left: 5px solid #E65100;
+    color: #fff;
+}
+
+.bike {
+    background-color: #F5F5F5;
+    border-left: 5px solid grey;
+    color: black;
+}
+
+.status {
+    background-color: #EF5350;
+    border-left: 5px solid #B71C1C;
+    color: white;
+}
+
+.house {
+    background: #F57C00;
+    border-left: 5px solid #E65100;
+    color: #fff;
+}
+
+.judge {
+    background: #9C27B0;
+    border-left: 5px solid #6A1B9A;
+    color: #fff;
+}
+
+.carwash {
+    background: #42A5F5;
+    border-left: 5px solid #1565C0;
+    color: #fff;
+}
+
+.police {
+    background: #283593;
+    border-left: 5px solid #1A237E;
+    color: #fff;
+}
+
+.bank {
+    background: #66BB6A;
+    border-left: 5px solid #2E7D32;
+    color: #fff;
+}
+
+.blackmarket {
+    background: #37474F;
+    border-left: 5px solid #263238;
+    color: #fff;
+}
+
+.twitter {
+    background: #03A9F4;
+    border-left: 5px solid #0277BD;
+    color: #fff;
+}

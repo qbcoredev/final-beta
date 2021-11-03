@@ -1,0 +1,3 @@
+	[orange] 				 	     = {[name] = orange, 			 	  	    [label] = Can, 			      [weight] = 125, 		[type] = item, 		[image] = orangea.png, 		    [unique] = false, 	[useable] = true, 	[shouldClose] = true,    [combinable] = nil,   [description] = Tasty Orange},
+	[emptybottle] 				 = {[name] = emptybottle, 			 	  	[label] = Chai Rỗng, 		[weight] = 125, 		[type] = item, 		[image] = emptybottle.png, 		    [unique] = false, 	[useable] = true, 	[shouldClose] = true,    [combinable] = nil,   [description] = Tasty Orange},
+	[orangejuice] 				 = {[name] = orangejuice, 			 	  	[label] = Nước Cam, 		[weight] = 200, 		[type] = item, 		[image] = succoarancia.png, 		    [unique] = false, 	[useable] = true, 	[shouldClose] = true,    [combinable] = nil,   [description] = Tasty Orange},	

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<Name>tamaki_v</Name>
+			<PropsName>null</PropsName>
+			<ClipDictionaryName>move_f@generic</ClipDictionaryName>
+			<BlendShapeFileName>null</BlendShapeFileName>
+			<ExpressionSetName>expr_set_ambient_female</ExpressionSetName>
+			<ExpressionDictionaryName>null</ExpressionDictionaryName>
+			<ExpressionName>null</ExpressionName>
+			<Pedtype>CIVFEMALE</Pedtype>
+			<MovementClipSet>move_f@sexy@a</MovementClipSet>
+			<StrafeClipSet>move_ped_strafing</StrafeClipSet>
+			<MovementToStrafeClipSet>move_ped_to_strafe</MovementToStrafeClipSet>
+			<InjuredStrafeClipSet>move_strafe_injured</InjuredStrafeClipSet>
+			<FullBodyDamageClipSet>dam_ko</FullBodyDamageClipSet>
+			<AdditiveDamageClipSet>dam_ad</AdditiveDamageClipSet>
+			<DefaultGestureClipSet>ANIM_GROUP_GESTURE_F_GENERIC</DefaultGestureClipSet>
+			<FacialClipsetGroupName>facial_clipset_group_gen_female</FacialClipsetGroupName>
+			<DefaultVisemeClipSet>ANIM_GROUP_VISEMES_F_LO</DefaultVisemeClipSet>
+			<SidestepClipSet>CLIP_SET_ID_INVALID</SidestepClipSet>
+			<PoseMatcherName>Male</PoseMatcherName>
+			<PoseMatcherProneName>Male_prone</PoseMatcherProneName>
+			<GetupSetHash>NMBS_SLOW_GETUPS</GetupSetHash>
+			<CreatureMetadataName>null</CreatureMetadataName>
+			<DecisionMakerName>DEFAULT</DecisionMakerName>
+			<MotionTaskDataSetName>STANDARD_PED</MotionTaskDataSetName>
+			<DefaultTaskDataSetName>STANDARD_PED</DefaultTaskDataSetName>
+			<PedCapsuleName>STANDARD_FEMALE</PedCapsuleName>
+			<PedLayoutName />
+			<PedComponentSetName />
+			<PedComponentClothName />
+			<PedIKSettingsName />
+			<TaskDataName />
+			<IsStreamedGfx value="false" />
+			<AmbulanceShouldRespondTo value="true" />
+			<CanRideBikeWithNoHelmet value="false" />
+			<CanSpawnInCar value="true" />
+			<IsHeadBlendPed value="false" />
+			<bOnlyBulkyItemVariations value="false" />
+			<RelationshipGroup>CIVFEMALE</RelationshipGroup>
+			<NavCapabilitiesName>STANDARD_PED</NavCapabilitiesName>
+			<PerceptionInfo>DEFAULT_PERCEPTION</PerceptionInfo>
+			<DefaultBrawlingStyle>BS_AI</DefaultBrawlingStyle>
+			<DefaultUnarmedWeapon>WEAPON_UNARMED</DefaultUnarmedWeapon>
+			<Personality>FitnessFemale</Personality>
+			<CombatInfo>DEFAULT</CombatInfo>
+			<VfxInfoName>VFXPEDINFO_HUMAN_GENERIC</VfxInfoName>
+			<AmbientClipsForFlee>FLEE</AmbientClipsForFlee>
+			<Radio1>RADIO_GENRE_SURF</Radio1>
+			<Radio2>RADIO_GENRE_REGGAE</Radio2>
+			<FUpOffset value="0.000000" />
+			<RUpOffset value="0.000000" />
+			<FFrontOffset value="0.000000" />
+			<RFrontOffset value="0.147000" />
+			<MinActivationImpulse value="20.000000" />
+			<Stubble value="0.000000" />
+			<HDDist value="3.000000" />
+			<TargetingThreatModifier value="1.000000" />
+			<KilledPerceptionRangeModifer value="-1.000000" />
+			<Sexiness>SF_HOT_PERSON</Sexiness>
+			<Age value="0" />
+			<MaxPassengersInCar value="0" />
+			<ExternallyDrivenDOFs />
+			<PedVoiceGroup>WFStewardess_PVG</PedVoiceGroup>
+			<AnimalAudioObject />
+			<AbilityType>SAT_NONE</AbilityType>
+			<ThermalBehaviour>TB_WARM</ThermalBehaviour>
+			<SuperlodType>SLOD_HUMAN</SuperlodType>
+			<ScenarioPopStreamingSlot>SCENARIO_POP_STREAMING_NORMAL</ScenarioPopStreamingSlot>
+			<DefaultSpawningPreference>DSP_NORMAL</DefaultSpawningPreference>
+			<DefaultRemoveRangeMultiplier value="1.000000" />
+			<AllowCloseSpawning value="false" />
+		</Item>
+	</InitDatas>
+</CPedModelInfo__InitDataList>

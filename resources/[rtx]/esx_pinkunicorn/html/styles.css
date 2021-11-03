@@ -1,0 +1,372 @@
+@import url('https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css');
+
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(BebasNeueBold.ttf);
+}
+
+*{
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+html {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	display: none;
+	color: #a8a8aa;
+}
+
+.banlistplayer {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid #ff66ff;
+  width: 15%;
+  height: 40%;
+  text-align:center;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+}
+
+.image-holder img {
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+	top: 20%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.btnQuit {
+	width:100%;
+}
+
+.mainadminmenutextmain {
+	position: absolute;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	top: 38%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+	font-size: 75px;
+	color: #ffffff;
+	text-align:center;
+}
+
+.buttonbanlist {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-decoration: none;
+	text-align: center;
+	top: 60%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	width: 25%;
+}
+
+.buttonbanlist:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.buttonclearvehicles {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-decoration: none;
+	text-align: center;
+	top: 80%;
+	left: 20%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	width: 25%;
+}
+
+.buttonclearvehicles:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.buttonclearobjects {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-decoration: none;
+	text-align: center;
+	top: 80%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	width: 25%;
+}
+
+.buttonclearobjects:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.buttonclearpeds {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-decoration: none;
+	text-align: center;
+	top: 80%;
+	left: 80%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	width: 25%;
+}
+
+.buttonclearpeds:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.unbanplayer {
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: 2px solid #ff66ff;
+	color: #ffffff;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	text-align:center;
+	width: 80%;
+}
+
+.unbanplayer:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.banlistplayername {
+	font-size: 40px;
+	white-space: nowrap;
+	text-align:center;
+	color: #ff66ff;
+	padding-top: 20px;
+}
+
+.banlistplayerreason {
+	font-size: 35px;
+	white-space: nowrap;
+	text-align:center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+.banlistid {
+	font-size: 35px;
+	white-space: nowrap;
+	text-align:center;
+	color: #ff66ff;
+	padding-top: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.mainadminmenu-container {
+	width: 70%;
+	height: 70%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-bottom: 3px solid #ff66ff;
+	border-radius: 1px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.banlist-container {
+	width: 70%;
+	height: 70%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-bottom: 3px solid #ff66ff;
+	border-radius: 1px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.banlistmain {
+	width: 100%;
+	height: 98%;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.headermainadminmenu {
+  width:100%;
+  height: 2.5%;
+  color: #ffffff;
+  display: flex;
+  background-color: rgba(0, 0, 0, 1);
+  border-bottom: 3px solid #ff66ff;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom:2.5%;
+}
+
+.headerbanlist {
+  width:100%;
+  height: 2.5%;
+  color: #ffffff;
+  display: flex;
+  background-color: rgba(0, 0, 0, 1);
+  border-bottom: 3px solid #ff66ff;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom:2.5%;
+}
+
+.HeaderMainAdminMenuText {
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	top: 3.5%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.HeaderBanlistText {
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	top: 3.5%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.closemainadminmenu {
+	position: absolute;
+	left: 98%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	top: 3.5%
+}
+
+.closebanlist {
+	position: absolute;
+	left: 98%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	top: 3.5%
+}
+
+.full-screen {
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.banlist {
+	width: 100%;
+	height: 90%;
+	left: 50%;
+	overflow: auto;
+	display: flex;
+	flex-wrap: wrap;		
+	font-family: BebasNeueBold;
+}
+
+*{
+	font-family: BebasNeueBold;
+}

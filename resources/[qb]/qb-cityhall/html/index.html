@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>QB Cityhall</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="cityhall-main-container">
+                <div class="cityhall-header">Tòa Thị Chính</div>
+
+                <div class="cityhall-option-blocks" style="text-align: center;">
+                    <div class="cityhall-option-block" style="background-color: #ededed" data-page="identity"><i class="far fa-id-card"></i><p>Giấy Phép</p></div>
+                    <div class="cityhall-option-block" style="background-color: #ededed" data-page="job"><i class="fas fa-briefcase"></i><p>Công Việc</p></div>
+                </div>
+
+                <div class="cityhall-identity-page">
+                    <div class="identity-page-blocks">
+                        <!-- <div class="identity-page-block" data-type="rijbewijs" onmouseover="hoverDescription('rijbewijs')" onmouseout="hoverDescription('rijbewijs')"><p>Rijbewijs</p></div> -->
+                    </div>
+
+                    <div class="hover-description">
+
+                    </div>
+
+                    <div class="request-identity-button"></div>
+
+                    <div class="back-to-main"><p>Trở Lại</p></div>
+                </div>
+
+                <div class="cityhall-job-page">
+                    <div class="job-page-blocks">
+                        <div class="job-page-block" data-job="trucker"><p>Giao Hàng</p></div>
+                        <div class="job-page-block" data-job="taxi"><p>Lái Taxi</p></div>
+                        <div class="job-page-block" data-job="tow"><p>Kéo Xe NPC</p></div>
+                        <div class="job-page-block" data-job="reporter"><p>Phóng viên thời sự</p></div>
+                        <div class="job-page-block" data-job="garbage"><p>Xử Lý Rác</p></div>
+                    </div>
+
+                    <div class="apply-job-button"><p>Xin Việc</p></div>
+
+                    <div class="back-to-main"><p>Trở Lại</p></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./app.js"></script>
+</html>

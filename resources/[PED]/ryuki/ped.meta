@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+   <InitDatas>
+      <Item>
+         <Name>ryuki</Name>
+         <PropsName>ballasfat_p</PropsName>
+         <ClipDictionaryName>move_m@generic</ClipDictionaryName>
+         <ExpressionSetName>expr_set_ambient_male</ExpressionSetName>
+         <Pedtype>CIVMALE</Pedtype>
+         <MovementClipSet>MOVE_M@FAT@A</MovementClipSet>
+         <StrafeClipSet>MOVE_STRAFE@GANG</StrafeClipSet>
+         <MovementToStrafeClipSet>move_ped_to_strafe</MovementToStrafeClipSet>
+         <InjuredStrafeClipSet>move_strafe_injured</InjuredStrafeClipSet>
+         <FullBodyDamageClipSet>dam_ko</FullBodyDamageClipSet>
+         <AdditiveDamageClipSet>dam_ad</AdditiveDamageClipSet>
+         <DefaultGestureClipSet>ANIM_GROUP_GESTURE_M_FAT</DefaultGestureClipSet>
+         <FacialClipsetGroupName>facial_clipset_group_gen_male</FacialClipsetGroupName>
+         <DefaultVisemeClipSet>ANIM_GROUP_VISEMES_M_LO</DefaultVisemeClipSet>
+         <PoseMatcherName>Male</PoseMatcherName>
+         <PoseMatcherProneName>Male_prone</PoseMatcherProneName>
+         <GetupSetHash>NMBS_SLOW_GETUPS</GetupSetHash>
+         <CreatureMetadataName>ambientPed_upperWrinkles</CreatureMetadataName>
+         <DecisionMakerName>Gang</DecisionMakerName>
+         <MotionTaskDataSetName>STANDARD_PED</MotionTaskDataSetName>
+         <DefaultTaskDataSetName>STANDARD_PED</DefaultTaskDataSetName>
+         <PedCapsuleName>STANDARD_MALE</PedCapsuleName>
+         <RelationshipGroup>AMBIENT_GANG_BALLAS</RelationshipGroup>
+         <NavCapabilitiesName>STANDARD_PED</NavCapabilitiesName>
+         <PerceptionInfo>DEFAULT_PERCEPTION</PerceptionInfo>
+         <DefaultBrawlingStyle>BS_AI</DefaultBrawlingStyle>
+         <DefaultUnarmedWeapon>WEAPON_UNARMED</DefaultUnarmedWeapon>
+         <Personality>Ballas</Personality>
+         <CombatInfo>Gang</CombatInfo>
+         <VfxInfoName>VFXPEDINFO_HUMAN_GENERIC</VfxInfoName>
+         <AmbientClipsForFlee>FLEE</AmbientClipsForFlee>
+         <Radio1>RADIO_GENRE_MODERN_HIPHOP</Radio1>
+         <Radio2>RADIO_GENRE_DANCE</Radio2>
+         <AbilityType>SAT_NONE</AbilityType>
+         <ThermalBehaviour>TB_WARM</ThermalBehaviour>
+         <SuperlodType>SLOD_HUMAN</SuperlodType>
+         <ScenarioPopStreamingSlot>SCENARIO_POP_STREAMING_NORMAL</ScenarioPopStreamingSlot>
+         <DefaultSpawningPreference>DSP_NORMAL</DefaultSpawningPreference>
+         <IsStreamedGfx value="false" />
+      </Item>
+   </InitDatas>
+</CPedModelInfo__InitDataList>
