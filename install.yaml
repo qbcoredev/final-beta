@@ -1,0 +1,50 @@
+$engine: 3
+$onesync: legacy
+name: QBCore Framework
+version: 2.0.0
+author: chaser
+description: An advanced FiveM RP framework including jobs, gangs, housing & more!
+
+tasks:
+  #  Download Base Files
+  - action: download_github
+    src: https://github.com/qbcoredev/final-beta
+    ref: main
+    dest: ./tmp/server-data1
+
+  - action: move_path
+    src: ./tmp/server-data1/resources
+    dest: ./resources
+
+  - action: move_path
+    src: ./tmp/server-data1/server.cfg
+    dest: ./server.cfg
+
+  - action: move_path
+    src: ./tmp/server-data1/logo.png
+    dest: ./logo.png
+
+  # Prepare Database
+  - action: connect_database
+  - action: query_database
+    file: ./tmp/server-data1/database.sql
+ 
+
+  # Configuring ghmattimysql
+  - action: write_file
+    file: ./resources/[standalone]/ghmattimysql/config.json
+    data: |
+      {
+        "user": "{{dbUsername}}",
+        "password": "{{dbPassword}}",
+        "host": "{{dbHost}}",
+        "port": 3306,
+        "database": "{{dbName}}"
+      }
+  - action: replace_string
+    mode: all_vars
+    file:
+      - ./resources/[standalone]/ghmattimysql/config.json
+ # Clean up
+  - action: remove_path
+    path: ./tmp
